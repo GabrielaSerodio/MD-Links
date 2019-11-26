@@ -1,0 +1,24 @@
+{
+  "name": "sap003-md-links",
+  "version": "1.0.0",
+  "description": "Projeto que criei uma ferramenta de linha de comando (CLI) assim como a minha própria biblioteca (library) em JavaScript.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaSerodio/SAP003-md-links.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Biblioteca",
+    "MarkDown"
+  ],
+  "author": "Gabriela Serodio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielaSerodio/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/GabrielaSerodio/SAP003-md-links#readme"
+}
