@@ -1,5 +1,6 @@
-const mdLinks = require('./lib/index.js')
+#! /usr/bin/env node
+const mdLinks = require("./lib/index.js");
 
-mdLinks('./README.md')
-    .then((result) => console.log(result))
-    .catch((error) => console.log(error))
+mdLinks("./README.md")
+  .then((result) => console.log(result))
+  .catch((error) => console.log(error));
