@@ -6,11 +6,9 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
+* [5.  Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Entregáveis](#6-entregáveis)
-* [7. Guias, dicas e leituras
-  complementares](#7-guias-dicas-e-leituras-complementares)
+* [7. Guias, dicas e leituras complementares](#7-guias-dicas-e-leituras-complementares)
 * [8. Checklist](#8-checklist)
 
 ***
@@ -264,8 +262,7 @@ Para que o módulo seja instalável pelo GitHub você tem que:
 * Ter um `package.json` válido
 
 Com o comando `npm install <githubname>/<reponame>` podemos instalar diretamente
-pelo GitHub. Ver [docs oficiais dp `npm install`
-aqui](https://docs.npmjs.com/cli/install)
+pelo GitHub. Ver [docs oficiais dp `npm install`aqui](https://docs.npmjs.com/cli/install)
 
 Por exemplo, o
 [`curriculum-parser`](https://github.com/Laboratoria/curriculum-parser) que é
@@ -280,8 +277,7 @@ receber argumento através da linha de comando, analisar um teste, fazer
 consultas HTTP, ... e tudo isso pode ser feito de muitas formas, tanto com
 bibliotecas quanto com JS puro.
 
-Para esse projeto recomendamos o uso de [expressões regulares
-(`RegExp`)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions)
+Para esse projeto recomendamos o uso de [expressões regulares(`RegExp`)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 ### Tutoriais / NodeSchool workshoppers
 
@@ -293,30 +289,20 @@ Para esse projeto recomendamos o uso de [expressões regulares
 
 * [Sobre Node.js - Documentação oficial](https://nodejs.org/pt-br/about/)
 * [Node.js file system - Documentação oficial](https://nodejs.org/api/fs.html)
-* [Node.js http.get - Documentação
-  oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
+* [Node.js http.get - Documentação oficial](https://nodejs.org/api/http.html#http_http_get_options_callback)
 * [Node.js - Wikipedia](https://pt.wikipedia.org/wiki/Node.js)
-* [What exactly is Node.js? -
-  freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
-* [Node.js – O que é, como funciona e quais as
-  vantagens](https://www.opus-software.com.br/node-js/)
+* [What exactly is Node.js? - freeCodeCamp](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
+* [Node.js – O que é, como funciona e quais as vantagens](https://www.opus-software.com.br/node-js/)
 * [O que é npm](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
-* [Módulos, librerías, paquetes, frameworks... ¿cuál es la
-  diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
-* [JavaScript assíncrono: callbacks, promises e async
-  functions](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298)
+* [Módulos, librerías, paquetes, frameworks... ¿cuál es la diferencia?](http://community.laboratoria.la/t/modulos-librerias-paquetes-frameworks-cual-es-la-diferencia/175)
+* [JavaScript assíncrono: callbacks, promises e async functions](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298)
 * [NPM](https://docs.npmjs.com/getting-started/what-is-npm)
-* [Publicar
-  package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Criando um módulo
-  Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [Ler um
-  arquivo](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback)
-* [Ler um
-  diretório](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
+* [Publicar package](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Criando um módulo Node.js](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Ler um arquivo](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback)
+* [Ler um diretório](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
 * [Path](https://nodejs.org/api/path.html)
-* [Criando sua CLI com
-  Node.js](https://medium.com/henriquekuwai/criando-sua-cli-com-node-js-d6dee7d03110)
+* [Criando sua CLI com Node.js](https://medium.com/henriquekuwai/criando-sua-cli-com-node-js-d6dee7d03110)
 
 ## 8. Checklist
 
