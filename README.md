@@ -12,7 +12,7 @@
 
 Você pode obtê-lo em npm
 `` ``
-$ npm install https://github.com/GabrielaSerodio/SAP003-md-links
+$ npm install https://github.com/GabrielaSerodio/MD-Links
 `` ``
 Em seguida, importe-o com um módulo
 
@@ -28,7 +28,7 @@ mdLinks ("/ some / example.md", {validate: true})
 `` ``
 Você pode usar via CLI (Command Line Interface)
 `` ``
-$ npm install -g https://github.com/GabrielaSerodio/SAP003-md-links
+$ npm install -g https://github.com/GabrielaSerodio/MD-Links
 `` ``
 ## Uso
 
