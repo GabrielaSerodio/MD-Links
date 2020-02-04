@@ -1,51 +1,38 @@
 # Markdown Links
 
-## Índice
+##  Extrair links de um arquivo Markdown (Node.js) v.1.0.0
 
-* [Instalar] (# instalar)
-* [Uso] (# uso)
-* [Contribuir] (# contribuição)
 
-***
+##### Argumento
 
-## Instalar
+* `path`: Rota absoluta ou relativa ao arquivo. Se a rota passada é
+  relativa, deve resolver como sendo relativa ao diretório onde foi chamada -
+  _current working directory_
 
-Você pode obtê-lo em npm
-`` ``
-$ npm install https://github.com/GabrielaSerodio/MD-Links
-`` ``
-Em seguida, importe-o com um módulo
+##### Valor de retorno
 
-Exemplo
-`` ``
-const mdLinks = require ("links md");
+A função deve retornar uma promessa (`Promise`) que resolve um array (`Array`) e
+objetos(`Object`), onde cada objeto representa um link, contendo as seguintes
+propriedades:
 
-mdLinks ("/ some / example.md", {validate: true})
-  .then (links => {
-    // => [{href, texto, status}]
-  })
-  .catch (console.error);
-`` ``
-Você pode usar via CLI (Command Line Interface)
-`` ``
-$ npm install -g https://github.com/GabrielaSerodio/MD-Links
-`` ``
-## Uso
+* `href`: URL encontrada.
+* `text`: Texto dentro do markdown.
 
-O executável de nossa aplicação pode ser executado da seguinte forma através do terminal:
+#### Exemplo
 
-`` ``
-md-links <path-to-file> [opções]
-`` ``
+```js
+const mdLinks = require("md-links");
+mdLinks("./example.md")
+  .then(links => {
+    // => [{ href, text }]
+  })
+  .catch(console.error);
+```
 
-## Contribuir
+## Como instalar:
+Para executar esta biblioteca, você deverá ter o NodeJS e npm instalados.
 
-Todas as contribuições são bem vindas.
+$ npm install -g GabrielaSerodio/MD-Links
 
-Bifurque o repositório no GitHub
-Clone o projeto em sua própria máquina
-Instale as ferramentas necessárias para o desenvolvimento: `` `npm install```
-Faça as alterações e teste-o: `` `npm test```
-Comprometa-o em seu próprio ramo
-Empurre seu trabalho de volta para o garfo
-Envie uma solicitação pull com observações completas documentando suas alterações
+#### Como utilizar
+$ md-links ./some/example.md
